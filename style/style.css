@@ -28,6 +28,11 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.main img {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
 nav{
     position: fixed;
     top: 0;
