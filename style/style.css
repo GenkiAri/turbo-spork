@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    background-color: rgb(240, 240, 240);
+}
 .main {
     border: solid 50px rgb(240, 240, 240);
     padding: 1%;
@@ -130,7 +132,7 @@ footer a:hover{
     margin-top: 8vh;
     margin-bottom: 8vh;
     display: flex;
-    height: 100vh;
+    height: 100%;
     flex-flow: row;
     flex-wrap: wrap;
     justify-content: center;
