@@ -6,9 +6,9 @@
 .main {
     border: solid 50px rgb(240, 240, 240);
     padding: 1%;
-    margin-top: 7vh;
-    height: 100vh;
-    margin-bottom: 6vh;
+    margin-top: 8vh;
+    height: 100%;
+    margin-bottom: 8vh;
     background-color: rgb(240, 240, 240);
 
 }
@@ -27,7 +27,7 @@ nav{
     position: fixed;
     top: 0;
     width: 100%;
-    height: 7vh;
+    height: 8vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -84,7 +84,7 @@ footer {
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-    height: 7vh;
+    height: 8vh;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     letter-spacing: 2px;
@@ -127,9 +127,10 @@ footer a:hover{
 /* calculators style */
 
 .mainBox {
-    margin-top: 7vh;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
     display: flex;
-    height: 93vh;
+    height: 100vh;
     flex-flow: row;
     flex-wrap: wrap;
     justify-content: center;
