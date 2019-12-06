@@ -12,25 +12,37 @@ body {
     border: solid 50px rgb(240, 240, 240);
     padding: 1%;
     margin-top: 8vh;
-    height: 100%;
     margin-bottom: 8vh;
+    height: 100%;
     background-color: rgb(240, 240, 240);
 
 }
 
 .main h1 {
-    padding: 1%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
 }
 
 .main p {
-    padding: 1% 1% 1% 1%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
 }
 
-.main img {
-    padding: 2%;
+
+.imgMainPage {
+    width: 300px;
+    margin: 1%;
+    float: right;
+    max-width: 700px;
 }
+.imgMainPage img {
+    border: solid rgb(105, 191, 219) 1px;
+    border-radius: 0.2cm;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/*Navigation bar*/
 
 nav{
     position: fixed;
@@ -41,7 +53,6 @@ nav{
     justify-content: space-around;
     align-items: center;
     background-image: linear-gradient(to bottom, rgb(105, 191, 219), rgb(240, 240, 240));
-    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -49,7 +60,7 @@ nav{
     color: rgb(50, 50, 50);
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 24px;
+    font-size: 30px;
     width: 30%;
     font-family: 'Poppins', sans-serif;
 
@@ -64,14 +75,16 @@ nav{
 }
 
 .navLinks li {
-    padding: 2vh;
+    padding-right: 1vh;
     list-style: none;
 }
 
 .navLinks a {
-    letter-spacing: 2px;
+    padding: 0px 8px 0px 8px;
+    font-size: 26px;
+    letter-spacing: 3px;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     font-weight: 600;
     color: rgb(50, 50, 50);
 }
@@ -84,33 +97,39 @@ nav{
   }
 
 @-webkit-keyframes colorchange {
-    0%   { opacity: 0.7; }
+    0%   { opacity: 0.5; }
     50% { opacity: 1; }
-    100%   { opacity: 0.7; }
+    100%   { opacity: 0.5; }
   }
   @-moz-keyframes colorchange {
-    0%   { opacity: 0.7; }
+    0%   { opacity: 0.5; }
     50% { opacity: 1; }
-    100%   { opacity: 0.7; }
+    100%   { opacity: 0.5; }
   }
   @-o-keyframes colorchange {
-    0%   { opacity: 0.7; }
+    0%   { opacity: 0.5; }
     50% { opacity: 1; }
-    100%   { opacity: 0.7; }
+    100%   { opacity: 0.5; }
   }
   @keyframes colorchange {
-    0%   { opacity: 0.7; }
+    0%   { opacity: 0.5; }
     50% { opacity: 1; }
-    100%   { opacity: 0.7; }
+    100%   { opacity: 0.5; }
   }
 
 .navLinks a:hover{
     color: royalblue;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .logo {
        display: none; 
+    }
+    .imgMainPage {
+        width: 100%;
+    }
+    .navLinks a {
+        font-size: 20px;
     }
   }
 
@@ -122,9 +141,6 @@ footer {
     align-items: center;
     width: 100%;
     height: 8vh;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    letter-spacing: 2px;
     background-image: linear-gradient(to top, rgb(105, 191, 219), rgb(240, 240, 240));
 
 }
@@ -136,10 +152,12 @@ footer ul{
 
 footer li {
     list-style: none;
-    padding: 15px; 
+    margin-right: 30px; 
 }
 
-footer a {
+footer a, p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
     text-decoration: none;
     color: rgb(50, 50, 50);
 
@@ -149,21 +167,10 @@ footer a:hover{
     color: royalblue;
 }
 
-#contactEmail{
-    padding: 15px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-
-}    
-
 /* calculators style */
 
 .mainBox {
+    text-align: center;
     margin-top: 8vh;
     margin-bottom: 8vh;
     display: flex;
@@ -176,11 +183,11 @@ footer a:hover{
 
 
 .calcMenu {
-    border: 1px solid gray;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    margin: 2px;
+    border: 1px solid rgb(105, 191, 219);
+    border-radius: 0.2cm;
     padding: 10px;
-    height: 150px;
+    height: 200px;
     width: 200px;
     display: flex;
     flex-flow: column;
@@ -189,16 +196,52 @@ footer a:hover{
     background-color: rgb(200, 233, 241);
 }
 
+.calcMenu p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
 .result {
-    border: 1px solid gray;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 2px;
+    border: 1px solid rgb(105, 191, 219);
+    border-radius: 0.2cm;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding: 10px;
     height: 30px;
     width: 200px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: rgb(138, 255, 127);
 
 }
+.calcMenu input {
+    padding-left: 10px;
+    
+    width: 190px;
+    height: 25px;
+    font-size: 18px;   
+    border: 1px solid rgb(105, 191, 219);
+    border-radius: 0.2cm;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    outline: 0;
+
+}
+.calcMenu button {
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+    border: 1px solid rgb(105, 191, 219);
+    border-radius: 0.2cm;
+    background-color: rgb(105, 191, 219);
+    border: none;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.calcMenu button:hover {
+    background-color:royalblue; /* Green */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5), 0 3px 10px 0 rgba(0,0,0,0.19);
+
+  }

@@ -4,7 +4,7 @@ function calcInch() {
        var a = document.getElementById("userInputInch").value;
         var resultInch = Math.round((inch * a)*1000)/1000;
  console.log(resultInch);
- document.getElementById("endInch").innerHTML = resultInch +'mm';
+ document.getElementById("endInch").innerHTML = resultInch +'мм';
 }
 
 function calcHole360() {
