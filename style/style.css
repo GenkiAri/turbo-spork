@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    border: solid 50px rgb(240, 240, 240);
+    padding: 1%;
+    margin-top: 7vh;
+    height: 100vh;
+    margin-bottom: 6vh;
+    background-color: rgb(240, 240, 240);
+
+}
+
+.main h1 {
+    padding: 1%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main p {
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgb(105, 191, 219), rgb(240, 240, 240));
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.logo {
+    color: rgb(50, 50, 50);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.navLinks {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    width: 30%;
+
+}
+
+.navLinks li {
+    padding: 2vh;
+    list-style: none;
+}
+
+.navLinks a {
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgb(50, 50, 50);
+}
+
+.navLinks a:hover{
+    color: royalblue;
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+       display: none; 
+    }
+  }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 7vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to top, rgb(105, 191, 219), rgb(240, 240, 240));
+
+}
+footer ul{
+    display: flex;
+    flex-flow: row;
+
+}
+
+footer li {
+    list-style: none;
+    padding: 15px; 
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+
+}
+
+footer a:hover{
+    color: royalblue;
+}
+
+#contactEmail{
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}    
+
+/* calculators style */
+
+.mainBox {
+    margin-top: 7vh;
+    display: flex;
+    height: 93vh;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+}
+
+
+.calcMenu {
+    border: 1px solid gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(200, 233, 241);
+}
+
+.result {
+    border: 1px solid gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(138, 255, 127);
+
+}

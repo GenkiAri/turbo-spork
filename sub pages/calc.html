@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Калькуляторы</title>
+        <link rel="stylesheet" href="../style/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+            <nav>
+                    <div class="logo">Nav</div>
+                    <ul class="navLinks">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+            </nav>
+    <div class="mainBox">
+        <div>
+            <div class="calcMenu">
+                <p style="width: 160px;">Дюйм в ММ</p>
+                <input type="text" style="width: 160px;" id="userInputInch" placeholder="Значение в дюймах">
+                <button style="width: 160px;" onclick="calcInch()">вычислить</button>
+            </div>
+            <div class="result" id="endInch">mm</div>
+        </div>
+        <div>
+            <div class="calcMenu">
+                <p style="width: 160px;">Шаг на 360°</p>
+                <input type="text" style="width: 160px;" id="userInputHole360" placeholder="Колличество отверстий">
+                <button style="width: 160px;" onclick="calcHole360()">вычислить</button>
+            </div>
+            <div class="result" id="endHole360"></div>
+        </div>
+        <div>
+            <div class="calcMenu">
+                <p style="width: 160px;">Уголы по двум катетам</p>
+                <input type="text" style="width: 160px;" id="userInputLeg1" placeholder="Катет a">
+                <input type="text" style="width: 160px;" id="userInputLeg2" placeholder="Катет b">
+
+                <button style="width: 160px;" onclick="calcAngle()">вычислить</button>
+            </div>
+            
+            <div class="result" id="endAngle1">Угол A</div>
+            <div class="result" id="endAngle2">Угол B</div>
+        </div>
+    </div>
+    <footer>
+            <ul id="contactEmail">
+                <li><p>Tel: +372 99 99 99 99</p></li>
+                <li><a href="mailto:abcdefg@company.com">EMAIL US</a></li>
+            </ul>
+        </footer>
+    
+        <script src="app.js"></script>
+    </body>
+</html>
