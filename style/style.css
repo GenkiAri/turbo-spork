@@ -4,6 +4,9 @@
 }
 body {
     background-color: rgb(240, 240, 240);
+
+
+
 }
 .main {
     border: solid 50px rgb(240, 240, 240);
@@ -68,6 +71,34 @@ nav{
     font-weight: 600;
     color: rgb(50, 50, 50);
 }
+
+#rickRoll {
+    -webkit-animation: colorchange 1000ms infinite; /* Safari 4+ */
+    -moz-animation:    colorchange 1000ms infinite; /* Fx 5+ */
+    -o-animation:      colorchange 1000ms infinite; /* Opera 12+ */
+    animation:         colorchange 1000ms infinite; /* IE 10+, Fx 29+ */
+  }
+
+@-webkit-keyframes colorchange {
+    0%   { opacity: 0.7; }
+    50% { opacity: 1; }
+    100%   { opacity: 0.7; }
+  }
+  @-moz-keyframes colorchange {
+    0%   { opacity: 0.7; }
+    50% { opacity: 1; }
+    100%   { opacity: 0.7; }
+  }
+  @-o-keyframes colorchange {
+    0%   { opacity: 0.7; }
+    50% { opacity: 1; }
+    100%   { opacity: 0.7; }
+  }
+  @keyframes colorchange {
+    0%   { opacity: 0.7; }
+    50% { opacity: 1; }
+    100%   { opacity: 0.7; }
+  }
 
 .navLinks a:hover{
     color: royalblue;
