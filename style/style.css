@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 body {
     background-color: rgb(240, 240, 240);
@@ -24,7 +24,7 @@ body {
 }
 
 .main p {
-    padding: 1%;
+    padding: 1% 1% 1% 1%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
