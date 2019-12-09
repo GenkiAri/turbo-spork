@@ -288,15 +288,12 @@ footer a:hover{
     border: solid rgb(105, 191, 219) 1px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
     border-radius: 0.2cm;
-    max-height: 500px;
-    max-width: 500px;
+    max-height: 80%;
+    max-width: 80%;
 }
 
 @media screen and (max-width: 600px) {
-    .machines img{
-        max-height: 300px;
-        max-width: 300px;    
-    }
+
     .machines {
         width: 360;
     }
