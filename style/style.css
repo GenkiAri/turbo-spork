@@ -76,7 +76,7 @@ nav{
 }
 
 .navLinks li {
-    padding-right: 1vh;
+    padding-right: 3px;
     list-style: none;
 }
 
@@ -290,4 +290,18 @@ footer a:hover{
     border-radius: 0.2cm;
     max-height: 500px;
     max-width: 500px;
+}
+
+@media screen and (max-width: 600px) {
+    .machines img{
+        max-height: 300px;
+        max-width: 300px;    
+    }
+    .machines {
+        width: 360;
+    }
+    .machines p, h4 {
+        width: 360;
+
+    }
 }
