@@ -264,8 +264,8 @@ footer a:hover{
 
 .machineSubBlock{
     margin: .5% .5%;
-    width: 683px;
-    height: 800px;
+    width: 600px;
+    height: auto;
     max-width: 683px;
     max-height: auto;
 
@@ -277,7 +277,7 @@ footer a:hover{
     font-family: 'Montserrat', sans-serif;
     line-height: auto;
     letter-spacing: 2px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* .machines p {
@@ -294,7 +294,7 @@ footer a:hover{
     display: block;
     height: 100%;
     width: 100%;
-    max-width: 683px;
+    max-width: 360px;
     max-height: auto;
 }
 
@@ -307,7 +307,7 @@ footer a:hover{
 }
 
 .machineSubBlock h4 {
-    width: 683px;
+    width: 600px;
     height: 50px;
     max-width: 683px;
     max-height: auto;
