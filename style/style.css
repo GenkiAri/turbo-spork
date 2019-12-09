@@ -245,9 +245,9 @@ footer a:hover{
 
   }
 
-/* Gallery */
+/* Machines style */
 
-.gallery {
+.machines {
     padding: 1%;
     margin-top: 8vh;
     margin-bottom: 8vh;
@@ -267,14 +267,14 @@ footer a:hover{
 
 }
 
-.gallery h4 {
+.machines h4 {
     font-family: 'Montserrat', sans-serif;
     line-height: auto;
     letter-spacing: 2px;
     font-size: 25px;
 }
 
-.gallery p {
+.machines p {
     padding-top: 10px;
     font-family: 'Montserrat', sans-serif;
     line-height: auto;
@@ -284,7 +284,7 @@ footer a:hover{
     word-wrap: normal;
 }
 
-.gallery img {
+.machines img {
     border: solid rgb(105, 191, 219) 1px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
     border-radius: 0.2cm;
