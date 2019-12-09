@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 body {
     background-color: rgb(240, 240, 240);
@@ -174,7 +175,6 @@ footer a:hover{
     margin-top: 8vh;
     margin-bottom: 8vh;
     display: flex;
-    height: 100%;
     flex-flow: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -188,7 +188,7 @@ footer a:hover{
     border-radius: 0.2cm;
     padding: 10px;
     height: 200px;
-    width: 200px;
+    width: 220px;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -209,7 +209,7 @@ footer a:hover{
     font-size: 20px;
     padding: 10px;
     height: 30px;
-    width: 200px;
+    width: 220px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -217,9 +217,8 @@ footer a:hover{
 
 }
 .calcMenu input {
-    padding-left: 10px;
-    
-    width: 190px;
+    text-align: center;
+    width: 200px;
     height: 25px;
     font-size: 18px;   
     border: 1px solid rgb(105, 191, 219);
@@ -245,3 +244,50 @@ footer a:hover{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5), 0 3px 10px 0 rgba(0,0,0,0.19);
 
   }
+
+/* Gallery */
+
+.gallery {
+    padding: 1%;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    height: 100%;
+    background-color: rgb(240, 240, 240);
+}
+.machineMainBlock {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.machineSubBlock{
+    margin: 2% 2%;
+    width: 500px;
+    height: auto;
+
+}
+
+.gallery h4 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: auto;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.gallery p {
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: auto;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    word-wrap: normal;
+}
+
+.gallery img {
+    border: solid rgb(105, 191, 219) 1px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    border-radius: 0.2cm;
+    max-height: 500px;
+    max-width: 500px;
+}
