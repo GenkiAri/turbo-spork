@@ -255,17 +255,21 @@ footer a:hover{
     margin-bottom: 8vh;
     height: 100%;
     background-color: rgb(240, 240, 240);
-}
-.machineMainBlock {
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
+
 .machineSubBlock{
-    margin: 2% 2%;
-    width: 500px;
-    height: auto;
+    margin: .5% .5%;
+    width: 683px;
+    height: 800px;
+    max-width: 683px;
+    max-height: auto;
+
+    /* background-color: blueviolet; */
 
 }
 
@@ -276,7 +280,7 @@ footer a:hover{
     font-size: 25px;
 }
 
-.machines p {
+/* .machines p {
     padding-top: 10px;
     font-family: 'Montserrat', sans-serif;
     line-height: auto;
@@ -284,14 +288,14 @@ footer a:hover{
     font-size: 15px;
     font-weight: 600;
     word-wrap: normal;
-}
+} */
 
 .imgMachines {
     display: block;
-    height: auto;
-    width: auto;
-    max-width: 1200px;
-    max-height: 600px;
+    height: 100%;
+    width: 100%;
+    max-width: 683px;
+    max-height: auto;
 }
 
 .machines img {
@@ -299,7 +303,21 @@ footer a:hover{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
     border-radius: 0.2cm;
     max-height: 80%;
-    max-width: 80%;
+    max-width: 100%;
+}
+
+.machineSubBlock h4 {
+    width: 683px;
+    height: 50px;
+    max-width: 683px;
+    max-height: auto;
+    border: 1px solid rgb(105, 191, 219);
+    border-radius: 0.1cm;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(200, 233, 241);
 }
 
 
